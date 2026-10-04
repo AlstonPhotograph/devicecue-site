@@ -1,0 +1,1323 @@
+{
+  "schemaVersion": 1,
+  "revision": 2,
+  "publishedAt": "2026-09-24T00:00:00+08:00",
+  "categories": [
+    {
+      "id": "headphones",
+      "name": "头戴降噪耳机",
+      "nameEn": "Noise-Cancelling Over-Ear Headphones",
+      "comparisonFields": [
+        {
+          "id": "weight",
+          "label": "耳机重量",
+          "labelEn": "Headphone Weight",
+          "explanation": "只比较耳机本体，不含线缆和收纳盒；重量不能单独决定佩戴舒适度。",
+          "explanationEn": "Compares the headphones only, excluding cables and carrying case; weight alone does not determine wearing comfort.",
+          "unit": "g"
+        },
+        {
+          "id": "battery_anc",
+          "label": "开启降噪的最长续航",
+          "labelEn": "Max Battery Life with ANC On",
+          "explanation": "均为厂商标称的连续音乐播放上限；品牌测试方法不同，不能据此断言真实续航比例。",
+          "explanationEn": "All figures are manufacturer-rated maximums for continuous music playback; brands test differently, so real-world battery ratios cannot be inferred.",
+          "unit": "小时",
+          "unitEn": "hours"
+        },
+        {
+          "id": "folding",
+          "label": "收纳方式",
+          "labelEn": "Folding & Storage",
+          "explanation": "折叠结构影响放入包内的方式；耳罩旋转放平不等于头梁可向内折叠。",
+          "explanationEn": "The folding structure affects how the headphones fit in a bag; ear cups that swivel flat are not the same as a headband that folds inward."
+        },
+        {
+          "id": "passive_wired",
+          "label": "关机后的有线播放",
+          "labelEn": "Wired Playback When Powered Off",
+          "explanation": "关机可播放表示电量用尽仍可用音频线听音；此时降噪等电子功能不可用。",
+          "explanationEn": "Playback while powered off means you can keep listening over an audio cable when the battery is empty; ANC and other electronic functions are unavailable in that state."
+        },
+        {
+          "id": "multipoint",
+          "label": "同时连接两台设备",
+          "labelEn": "Connect Two Devices at Once",
+          "explanation": "多点连接便于在手机和电脑间切换，通常不是同时混合播放两路声音。",
+          "explanationEn": "Multipoint makes switching between phone and computer easier; it usually does not mix audio from both sources at the same time."
+        },
+        {
+          "id": "water_resistance",
+          "label": "防水信息",
+          "labelEn": "Water Resistance",
+          "explanation": "未知不等于防水；没有核实的等级不会写成IPX0。",
+          "explanationEn": "Unknown does not mean water-resistant; unverified ratings are not listed as IPX0."
+        },
+        {
+          "id": "controls",
+          "label": "主要操作方式",
+          "labelEn": "Primary Controls",
+          "explanation": "按键、触摸和滑条的习惯不同，可结合试戴判断自己是否容易误触。",
+          "explanationEn": "Buttons, touch and sliders each take getting used to; try them on to judge how prone you are to accidental input."
+        }
+      ]
+    },
+    {
+      "id": "cameras",
+      "name": "全画幅可换镜头相机",
+      "nameEn": "Full-Frame Interchangeable-Lens Cameras",
+      "comparisonFields": [
+        {
+          "id": "sensor_format",
+          "label": "传感器画幅",
+          "labelEn": "Sensor Format",
+          "explanation": "这里三款都是全画幅机身；拍摄效果还取决于镜头、光线和设置。",
+          "explanationEn": "All three bodies here are full-frame; results also depend on the lens, lighting and settings."
+        },
+        {
+          "id": "effective_pixels",
+          "label": "有效像素",
+          "labelEn": "Effective Pixels",
+          "explanation": "此项说明照片像素规模，不等于总画质或高感表现；24.5MP约为2450万像素。",
+          "explanationEn": "This indicates photo resolution scale, not overall image quality or high-ISO performance; 24.5MP is about 24.5 million pixels.",
+          "unit": "MP"
+        },
+        {
+          "id": "mount",
+          "label": "镜头卡口",
+          "labelEn": "Lens Mount",
+          "explanation": "卡口决定镜头兼容范围；转接镜头的自动对焦等功能需要另查兼容条件。",
+          "explanationEn": "The mount determines lens compatibility; functions such as autofocus with adapted lenses need separate compatibility checks."
+        },
+        {
+          "id": "body_weight",
+          "label": "机身重量（含电池及卡）",
+          "labelEn": "Body Weight (with Battery & Card)",
+          "explanation": "统一为装入电池和存储卡、不含镜头、机身盖及热靴盖的官方约值；整套重量还要加镜头。",
+          "explanationEn": "Standardized to official approximate values with battery and memory card inserted, excluding lens, body cap and hot-shoe cover; add the lens for total carry weight.",
+          "unit": "g"
+        },
+        {
+          "id": "video_4k60",
+          "label": "4K/60p 视频画幅",
+          "labelEn": "4K/60p Video Format",
+          "explanation": "比较3840×2160、约59.94帧/秒、使用FX镜头且电子防抖关闭时的画幅。DX裁切会让同一镜头的视角变窄。",
+          "explanationEn": "Compares the image area at 3840×2160, approx. 59.94fps, with an FX lens and electronic VR off. A DX crop narrows the angle of view of the same lens."
+        },
+        {
+          "id": "card_slots",
+          "label": "存储卡槽",
+          "labelEn": "Card Slots",
+          "explanation": "双卡可设置照片备份，但两槽卡型和速度可能不同；视频记录与卡速要求另查手册。",
+          "explanationEn": "Dual slots can back up photos, but the two slots may differ in card type and speed; check the manual for video recording and speed requirements."
+        },
+        {
+          "id": "viewfinder_dots",
+          "label": "电子取景器点数",
+          "labelEn": "EVF Resolution",
+          "explanation": "点数描述取景器显示细腻程度，不是照片像素；也不能单独代表亮度和刷新率。",
+          "explanationEn": "Dot count describes viewfinder display fineness, not photo resolution; alone it does not represent brightness or refresh rate.",
+          "unit": "万点",
+          "unitEn": "million dots"
+        },
+        {
+          "id": "controls",
+          "label": "主要曝光操作",
+          "labelEn": "Primary Exposure Controls",
+          "explanation": "选自己能熟练使用的操作方式；实体刻度拨盘与按钮加指令拨盘各有使用习惯。",
+          "explanationEn": "Choose the control style you can operate fluently; dedicated marked dials and button-plus-command-dial layouts each have their own habits."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "sony-xm5-spec",
+      "title": "Sony WH-1000XM5 官方规格（澳大利亚）",
+      "titleEn": "Sony WH-1000XM5 official specifications (Australia)",
+      "url": "https://www.sony.com.au/electronics/headband-headphones/wh-1000xm5/specifications",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "sony-xm5-guide",
+      "title": "Sony WH-1000XM5 官方使用注意事项",
+      "titleEn": "Sony WH-1000XM5 official usage precautions",
+      "url": "https://helpguide.sony.net/mdr/wh1000xm5/v1/en/contents/TP1000534599.html",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "sony-xm6-spec",
+      "title": "Sony WH-1000XM6 官方规格",
+      "titleEn": "Sony WH-1000XM6 official specifications",
+      "url": "https://www.sony.com/electronics/support/wireless-headphones-bluetooth-headphones/wh-1000xm6/specifications",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "sony-xm6-guide",
+      "title": "Sony WH-1000XM6 官方帮助指南（规格见第144页）",
+      "titleEn": "Sony WH-1000XM6 official help guide (specifications on page 144)",
+      "url": "https://helpguide.sony.net/mdr/2984/v1/en/print.pdf",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "sony-xm6-design",
+      "title": "Sony WH-1000XM6 官方设计访谈",
+      "titleEn": "Sony WH-1000XM6 official design interview",
+      "url": "https://www.sony.com.au/headphones/products/wh-1000xm6/developer-interview",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "sony-xm6-store",
+      "title": "Sony WH-1000XM6 官方连接与充电说明",
+      "titleEn": "Sony WH-1000XM6 official connection and charging notes",
+      "url": "https://www.sony.com.au/headphones/products/wh-1000xm6/features6",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "bose-ultra1-battery",
+      "title": "Bose QuietComfort Ultra 第一代官方产品资料与续航条件",
+      "titleEn": "Bose QuietComfort Ultra (1st gen) official product information and battery test conditions",
+      "url": "https://qr.bose.com/QCUH-HEADPHONEARN",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "bose-ultra1-launch",
+      "title": "Bose QuietComfort Ultra 第一代官方发布资料（2023）",
+      "titleEn": "Bose QuietComfort Ultra (1st gen) official launch materials (2023)",
+      "url": "https://www.bose.com/pressroom/bose-announces-new-quietcomfort-ultra-headphones-and-earbuds",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "bose-ultra1-support",
+      "title": "Bose QuietComfort Ultra 第一代官方有线与充电说明",
+      "titleEn": "Bose QuietComfort Ultra (1st gen) official wired listening and charging notes",
+      "url": "https://support.bose.com/s/article/quietcomfort-ultra-headphones-no-audio-from-product",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "bose-ultra1-faq",
+      "title": "Bose QuietComfort Ultra 第一代官方功能问答",
+      "titleEn": "Bose QuietComfort Ultra (1st gen) official feature FAQ",
+      "url": "https://www.bose.com/p/headphones-sets/SET-QCUH-QCUH.html",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "bose-ultra1-manual",
+      "title": "Bose QuietComfort Ultra 第一代官方用户指南",
+      "titleEn": "Bose QuietComfort Ultra (1st gen) official user guide",
+      "url": "https://assets.bosecreative.com/m/8f024ac3c0159c1/original/884885_OG_QCUH-HEADPHONEARN_en.pdf",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "nikon-zf-spec",
+      "title": "Nikon Zf 官方参考指南：规格",
+      "titleEn": "Nikon Zf official reference guide: specifications",
+      "url": "https://onlinemanual.nikonimglib.com/zf/en/specifications_350.html",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "nikon-zf-body",
+      "title": "Nikon Zf 官方参考指南：机身操作部件",
+      "titleEn": "Nikon Zf official reference guide: camera body controls",
+      "url": "https://onlinemanual.nikonimglib.com/zf/en/camera_body_14.html",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "nikon-zf-video",
+      "title": "Nikon Zf 官方参考指南：视频画幅条件",
+      "titleEn": "Nikon Zf official reference guide: video image area conditions",
+      "url": "https://onlinemanual.nikonimglib.com/zf/en/video_image_area_options_47.html",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "nikon-z6iii-spec",
+      "title": "Nikon Z6III 官方参考指南：规格",
+      "titleEn": "Nikon Z6III official reference guide: specifications",
+      "url": "https://onlinemanual.nikonimglib.com/z6III/en/specifications_387.html",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "nikon-z6iii-body",
+      "title": "Nikon Z6III 官方参考指南：机身操作部件",
+      "titleEn": "Nikon Z6III official reference guide: camera body controls",
+      "url": "https://onlinemanual.nikonimglib.com/z6III/en/camera_body_14.html",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "nikon-z6iii-video",
+      "title": "Nikon Z6III 官方参考指南：视频画幅条件",
+      "titleEn": "Nikon Z6III official reference guide: video image area conditions",
+      "url": "https://onlinemanual.nikonimglib.com/z6III/en/video_image_area_options_47.html",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "nikon-z6iii-launch",
+      "title": "Nikon Z6III 官方发布资料（2024）",
+      "titleEn": "Nikon Z6III official launch materials (2024)",
+      "url": "https://www.nikonusa.com/press-room/nikon-z6iii",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "nikon-z5ii-spec",
+      "title": "Nikon Z5II 官方参考指南：规格",
+      "titleEn": "Nikon Z5II official reference guide: specifications",
+      "url": "https://onlinemanual.nikonimglib.com/z5II/en/specifications_379.html",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "nikon-z5ii-body",
+      "title": "Nikon Z5II 官方参考指南：机身操作部件",
+      "titleEn": "Nikon Z5II official reference guide: camera body controls",
+      "url": "https://onlinemanual.nikonimglib.com/z5II/en/camera_body_14.html",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "nikon-z5ii-video",
+      "title": "Nikon Z5II 官方参考指南：视频画幅条件",
+      "titleEn": "Nikon Z5II official reference guide: video image area conditions",
+      "url": "https://onlinemanual.nikonimglib.com/z5II/en/video_image_area_options_47.html",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    },
+    {
+      "id": "nikon-z5ii-launch",
+      "title": "Nikon Z5II 官方发布资料（2025）",
+      "titleEn": "Nikon Z5II official launch materials (2025)",
+      "url": "https://www.nikonusa.com/press-room/nikon-z5ii",
+      "kind": "manufacturer",
+      "checkedAt": "2026-09-09"
+    }
+  ],
+  "products": [
+    {
+      "id": "71482015-FBC9-5B15-B9F9-BF8192A64BF8",
+      "brand": "Sony",
+      "model": "WH-1000XM5",
+      "category": "headphones",
+      "series": "1000X 头戴耳机",
+      "seriesEn": "1000X over-ear headphones",
+      "generation": "第五代",
+      "generationEn": "5th generation",
+      "configuration": "标准头戴耳机；颜色合并，不包括入耳式 WF-1000XM5",
+      "configurationEn": "Standard over-ear model; colors combined; does not include the WF-1000XM5 earbuds",
+      "aliases": [
+        "索尼 WH-1000XM5",
+        "XM5",
+        "索尼头戴五代"
+      ],
+      "positioning": {
+        "text": "带主动降噪和双设备连接的头戴蓝牙耳机，适合把通勤听音与电脑使用放在一副耳机上。",
+        "textEn": "Over-ear Bluetooth headphones with active noise cancellation and two-device connection, suited to carrying commute listening and computer use on one pair.",
+        "kind": "editorial",
+        "sourceIDs": [
+          "sony-xm5-spec"
+        ]
+      },
+      "highlights": [
+        {
+          "text": "可同时连接手机和电脑，减少来回重新配对。",
+          "textEn": "Connects to a phone and a computer at the same time, cutting down on re-pairing.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "sony-xm5-spec"
+          ]
+        },
+        {
+          "text": "降噪开启时厂商标称最长30小时音乐播放；关机后仍可接音频线听音。",
+          "textEn": "Manufacturer-rated up to 30 hours of music playback with ANC on; keeps playing over an audio cable when powered off.",
+          "kind": "manufacturer",
+          "sourceIDs": [
+            "sony-xm5-spec"
+          ]
+        },
+        {
+          "text": "触摸耳罩可调节播放；取下耳机可自动暂停。",
+          "textEn": "Touch the ear cup to control playback; taking the headphones off pauses automatically.",
+          "kind": "manufacturer",
+          "sourceIDs": [
+            "sony-xm5-spec"
+          ]
+        }
+      ],
+      "suitableFor": [
+        {
+          "text": "通勤和室内听音：需要降噪，也需要在手机与电脑间切换。",
+          "textEn": "Commuting and indoor listening: you want noise cancellation and switching between phone and computer.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "sony-xm5-spec"
+          ]
+        },
+        {
+          "text": "能接受较展开的收纳方式，希望有电量用尽后的有线备用。",
+          "textEn": "You can accept a flatter, less compact fold and want a wired fallback when the battery runs out.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "sony-xm5-spec",
+            "sony-xm6-design"
+          ]
+        }
+      ],
+      "limitations": [
+        {
+          "text": "耳罩能旋转放平，头梁不能像XM6一样向内折叠；小包收纳前应确认尺寸。",
+          "textEn": "The ear cups swivel flat, but the headband does not fold inward like the XM6; check dimensions before packing it in a small bag.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "sony-xm6-design"
+          ]
+        },
+        {
+          "text": "不防水；雨中和大量出汗环境不适合作为使用场景。",
+          "textEn": "Not water-resistant; rain and heavy-sweat environments are not suitable use cases.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "sony-xm5-guide"
+          ]
+        },
+        {
+          "text": "降噪和音质改善属于厂商描述，本资料没有同条件实测，不能判定它优于其他耳机。",
+          "textEn": "Noise-cancellation and sound improvements are manufacturer claims; this catalog has no controlled measurements and cannot judge it superior to other headphones.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "sony-xm5-spec"
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "fieldID": "weight",
+          "value": "250",
+          "sourceIDs": [
+            "sony-xm5-spec"
+          ],
+          "condition": "官方约值；耳机本体",
+          "conditionEn": "Official approximate value; headphones only"
+        },
+        {
+          "fieldID": "battery_anc",
+          "value": "30",
+          "sourceIDs": [
+            "sony-xm5-spec"
+          ],
+          "condition": "厂商标称最长连续音乐播放；降噪开启。设置、音量和使用条件影响结果。",
+          "conditionEn": "Manufacturer-rated maximum continuous music playback with ANC on. Settings, volume and usage conditions affect the result."
+        },
+        {
+          "fieldID": "folding",
+          "value": "耳罩放平，不可向内折叠",
+          "valueEn": "Ear cups swivel flat; does not fold inward",
+          "sourceIDs": [
+            "sony-xm6-design"
+          ]
+        },
+        {
+          "fieldID": "passive_wired",
+          "value": "支持",
+          "valueEn": "Yes",
+          "sourceIDs": [
+            "sony-xm5-spec"
+          ],
+          "condition": "使用音频线；关机时没有主动降噪。",
+          "conditionEn": "Via audio cable; no active noise cancellation when powered off."
+        },
+        {
+          "fieldID": "multipoint",
+          "value": "支持",
+          "valueEn": "Yes",
+          "sourceIDs": [
+            "sony-xm5-spec"
+          ],
+          "condition": "可同时连接两台蓝牙设备，播放切换受设备和应用影响。",
+          "conditionEn": "Connects to two Bluetooth devices at once; playback switching depends on the devices and apps."
+        },
+        {
+          "fieldID": "water_resistance",
+          "value": "不防水",
+          "valueEn": "Not water-resistant",
+          "sourceIDs": [
+            "sony-xm5-guide"
+          ]
+        },
+        {
+          "fieldID": "controls",
+          "value": "耳罩触摸 + 按键",
+          "valueEn": "Ear-cup touch + buttons",
+          "sourceIDs": [
+            "sony-xm5-spec"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2334F129-4670-5E6D-84AD-71C29ACEBAF1",
+      "brand": "Sony",
+      "model": "WH-1000XM6",
+      "category": "headphones",
+      "series": "1000X 头戴耳机",
+      "seriesEn": "1000X over-ear headphones",
+      "generation": "第六代",
+      "generationEn": "6th generation",
+      "configuration": "标准头戴耳机；颜色合并，不包括其他1000X型号",
+      "configurationEn": "Standard over-ear model; colors combined; does not include other 1000X models",
+      "aliases": [
+        "索尼 WH-1000XM6",
+        "XM6",
+        "索尼头戴六代"
+      ],
+      "positioning": {
+        "text": "带折叠结构的头戴降噪耳机，重点可看收纳便利、双设备切换和边充边听。",
+        "textEn": "Folding over-ear noise-cancelling headphones; the highlights to check are storage convenience, two-device switching and listening while charging.",
+        "kind": "editorial",
+        "sourceIDs": [
+          "sony-xm6-design",
+          "sony-xm6-store"
+        ]
+      },
+      "highlights": [
+        {
+          "text": "头梁可折叠，便于放入配套收纳盒。",
+          "textEn": "The headband folds, making it easy to pack into the included carrying case.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "sony-xm6-design"
+          ]
+        },
+        {
+          "text": "支持充电时继续通过蓝牙或音频线听音。",
+          "textEn": "Supports listening over Bluetooth or an audio cable while charging.",
+          "kind": "manufacturer",
+          "sourceIDs": [
+            "sony-xm6-store"
+          ]
+        },
+        {
+          "text": "降噪开启时厂商标称最长30小时音乐播放。",
+          "textEn": "Manufacturer-rated up to 30 hours of music playback with ANC on.",
+          "kind": "manufacturer",
+          "sourceIDs": [
+            "sony-xm6-spec"
+          ]
+        }
+      ],
+      "suitableFor": [
+        {
+          "text": "经常带耳机出门，重视折叠收纳和手机、电脑之间的切换。",
+          "textEn": "You carry headphones out often and care about folding storage and switching between phone and computer.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "sony-xm6-design",
+            "sony-xm6-store"
+          ]
+        },
+        {
+          "text": "长时间在桌面使用，希望临时充电时仍继续听音。",
+          "textEn": "Long desk sessions where you want to keep listening while topping up the battery.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "sony-xm6-store"
+          ]
+        }
+      ],
+      "limitations": [
+        {
+          "text": "不防水；佩戴位置也会影响降噪和佩戴检测。",
+          "textEn": "Not water-resistant; wearing position also affects noise cancellation and wear detection.",
+          "kind": "manufacturer",
+          "sourceIDs": [
+            "sony-xm6-guide"
+          ]
+        },
+        {
+          "text": "开启降噪的标称续航与XM5同为30小时，不能把代际更新理解成更长续航。",
+          "textEn": "Rated battery life with ANC on is the same 30 hours as the XM5; the generational update should not be read as longer battery life.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "sony-xm6-spec",
+            "sony-xm5-spec"
+          ]
+        },
+        {
+          "text": "厂商宣传的处理器和麦克风变化不等于每个人都能获得同样的听感或降噪提升；仍需试戴。",
+          "textEn": "Advertised processor and microphone changes do not guarantee the same perceived sound or ANC improvement for everyone; try them on.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "sony-xm6-design"
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "fieldID": "weight",
+          "value": "254",
+          "sourceIDs": [
+            "sony-xm6-guide"
+          ],
+          "condition": "官方约值；耳机本体",
+          "conditionEn": "Official approximate value; headphones only"
+        },
+        {
+          "fieldID": "battery_anc",
+          "value": "30",
+          "sourceIDs": [
+            "sony-xm6-spec"
+          ],
+          "condition": "厂商标称最长连续音乐播放；降噪开启。设置、音量和使用条件影响结果。",
+          "conditionEn": "Manufacturer-rated maximum continuous music playback with ANC on. Settings, volume and usage conditions affect the result."
+        },
+        {
+          "fieldID": "folding",
+          "value": "可向内折叠收纳",
+          "valueEn": "Folds inward for storage",
+          "sourceIDs": [
+            "sony-xm6-design"
+          ]
+        },
+        {
+          "fieldID": "passive_wired",
+          "value": "支持",
+          "valueEn": "Yes",
+          "sourceIDs": [
+            "sony-xm6-spec"
+          ],
+          "condition": "使用音频线；关机时没有主动降噪。",
+          "conditionEn": "Via audio cable; no active noise cancellation when powered off."
+        },
+        {
+          "fieldID": "multipoint",
+          "value": "支持",
+          "valueEn": "Yes",
+          "sourceIDs": [
+            "sony-xm6-spec"
+          ],
+          "condition": "可同时连接两台蓝牙设备，播放切换受设备和应用影响。",
+          "conditionEn": "Connects to two Bluetooth devices at once; playback switching depends on the devices and apps."
+        },
+        {
+          "fieldID": "water_resistance",
+          "value": "不防水",
+          "valueEn": "Not water-resistant",
+          "sourceIDs": [
+            "sony-xm6-guide"
+          ]
+        },
+        {
+          "fieldID": "controls",
+          "value": "耳罩触摸 + 按键",
+          "valueEn": "Ear-cup touch + buttons",
+          "sourceIDs": [
+            "sony-xm6-guide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "86627769-A97A-5C9C-B0B6-BAB200F0DE4C",
+      "brand": "Bose",
+      "model": "QuietComfort Ultra Headphones（第一代）",
+      "modelEn": "QuietComfort Ultra Headphones (1st generation)",
+      "category": "headphones",
+      "series": "QuietComfort Ultra 头戴耳机",
+      "seriesEn": "QuietComfort Ultra over-ear headphones",
+      "generation": "第一代（2023）",
+      "generationEn": "1st generation (2023)",
+      "configuration": "2023款头戴耳机；不包括第二代、QuietComfort普通款或Ultra耳塞",
+      "configurationEn": "2023 over-ear model; does not include the 2nd generation, the standard QuietComfort, or Ultra earbuds",
+      "aliases": [
+        "Bose QC Ultra 一代",
+        "Bose QC Ultra 1",
+        "QC Ultra 2023",
+        "QuietComfort Ultra Headphones 1st Gen"
+      ],
+      "positioning": {
+        "text": "提供主动降噪与沉浸音效的可折叠头戴耳机；查看时应特别分清第一代与第二代。",
+        "textEn": "Folding over-ear headphones with active noise cancellation and immersive audio; take extra care to tell the first and second generations apart.",
+        "kind": "editorial",
+        "sourceIDs": [
+          "bose-ultra1-launch"
+        ]
+      },
+      "highlights": [
+        {
+          "text": "可选择降噪、通透或沉浸音效模式，并通过Bose应用调整。",
+          "textEn": "Offers noise-cancelling, aware and immersive audio modes, adjustable in the Bose app.",
+          "kind": "manufacturer",
+          "sourceIDs": [
+            "bose-ultra1-faq"
+          ]
+        },
+        {
+          "text": "沉浸音效可让声音呈现不同的空间感；是否喜欢需要自己试听。",
+          "textEn": "Immersive audio gives sound a different sense of space; whether you like it needs a listen.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "bose-ultra1-launch"
+          ]
+        },
+        {
+          "text": "耳机可以折叠收纳，播放控制由按键与音量触摸条完成。",
+          "textEn": "The headphones fold for storage; playback is controlled with buttons and a volume touch strip.",
+          "kind": "manufacturer",
+          "sourceIDs": [
+            "bose-ultra1-launch"
+          ]
+        }
+      ],
+      "suitableFor": [
+        {
+          "text": "需要头戴降噪、可折叠收纳，同时想尝试沉浸音效的人。",
+          "textEn": "People who want over-ear noise cancellation, folding storage and a taste of immersive audio.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "bose-ultra1-launch"
+          ]
+        },
+        {
+          "text": "愿意安装Bose应用并更新耳机，以使用双设备连接等功能。",
+          "textEn": "People willing to install the Bose app and update the headphones to use features like two-device connection.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "bose-ultra1-faq"
+          ]
+        }
+      ],
+      "limitations": [
+        {
+          "text": "有线听音也需要开机；没电时要另接USB供电，不能当作关机可用的被动耳机。",
+          "textEn": "Wired listening also requires power; with an empty battery you must connect USB power, so it cannot serve as a passive powered-off headphone.",
+          "kind": "manufacturer",
+          "sourceIDs": [
+            "bose-ultra1-support"
+          ]
+        },
+        {
+          "text": "第一代不支持USB音频；USB连接用于供电，听音需蓝牙或音频线。",
+          "textEn": "The first generation does not support USB audio; the USB connection supplies power, and listening needs Bluetooth or an audio cable.",
+          "kind": "manufacturer",
+          "sourceIDs": [
+            "bose-ultra1-support"
+          ]
+        },
+        {
+          "text": "厂商测试中，开启沉浸音效后最长播放时间由24小时降为18小时。",
+          "textEn": "In manufacturer testing, enabling immersive audio reduces maximum playback from 24 hours to 18 hours.",
+          "kind": "manufacturer",
+          "sourceIDs": [
+            "bose-ultra1-battery"
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "fieldID": "weight",
+          "value": null,
+          "sourceIDs": [],
+          "condition": "本轮尚未从可读取的一代官方规格确认本体重量；不使用其他代际或第三方数字填充。",
+          "conditionEn": "The body weight has not been confirmed from a readable first-generation official specification this round; figures from other generations or third parties are not used as filler."
+        },
+        {
+          "fieldID": "battery_anc",
+          "value": "24",
+          "sourceIDs": [
+            "bose-ultra1-battery"
+          ],
+          "condition": "Bose于2023年6月测试：Quiet模式（降噪开）、沉浸音效关、75dB播放响度、均衡器归零；沉浸音效开时最长18小时。",
+          "conditionEn": "Tested by Bose in June 2023: Quiet mode (ANC on), immersive audio off, 75dB playback loudness, EQ flat; up to 18 hours with immersive audio on."
+        },
+        {
+          "fieldID": "folding",
+          "value": "可向内折叠收纳",
+          "valueEn": "Folds inward for storage",
+          "sourceIDs": [
+            "bose-ultra1-launch",
+            "bose-ultra1-manual"
+          ]
+        },
+        {
+          "fieldID": "passive_wired",
+          "value": "不支持",
+          "valueEn": "No",
+          "sourceIDs": [
+            "bose-ultra1-support"
+          ],
+          "condition": "音频线播放需开机；没电时可以另外接USB供电。",
+          "conditionEn": "Audio-cable playback requires power; with an empty battery you can connect USB power separately."
+        },
+        {
+          "fieldID": "multipoint",
+          "value": "支持",
+          "valueEn": "Yes",
+          "sourceIDs": [
+            "bose-ultra1-faq"
+          ],
+          "condition": "官方说明由2024年7月更新加入；须用Bose应用更新耳机。",
+          "conditionEn": "Added per official notes by a July 2024 update; the headphones must be updated via the Bose app."
+        },
+        {
+          "fieldID": "water_resistance",
+          "value": null,
+          "sourceIDs": [
+            "bose-ultra1-manual"
+          ],
+          "condition": "本轮未确认IP等级；官方手册要求避免雨水及潮湿环境。",
+          "conditionEn": "No IP rating confirmed this round; the official manual requires avoiding rain and humid environments."
+        },
+        {
+          "fieldID": "controls",
+          "value": "按键 + 音量触摸条",
+          "valueEn": "Buttons + volume touch strip",
+          "sourceIDs": [
+            "bose-ultra1-launch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A11989BF-76F4-582E-9B22-967599E1E51C",
+      "brand": "Nikon",
+      "model": "Zf",
+      "category": "cameras",
+      "series": "Z 系列复古全画幅",
+      "seriesEn": "Z series retro full-frame",
+      "generation": "Zf（2023）",
+      "generationEn": "Zf (2023)",
+      "configuration": "机身（不含镜头）；颜色差异不单独拆分",
+      "configurationEn": "Body only (no lens); color variants are not split out",
+      "aliases": [
+        "尼康 Zf",
+        "尼康复古全画幅 Zf"
+      ],
+      "positioning": {
+        "text": "以实体曝光拨盘为特色的全画幅可换镜头相机，适合喜欢直接转动拨盘拍照的用户。",
+        "textEn": "A full-frame interchangeable-lens camera built around physical exposure dials, for people who like to turn a dial directly when shooting.",
+        "kind": "editorial",
+        "sourceIDs": [
+          "nikon-zf-body",
+          "nikon-zf-spec"
+        ]
+      },
+      "highlights": [
+        {
+          "text": "快门速度、ISO和曝光补偿有独立实体拨盘，便于看见并调整设置。",
+          "textEn": "Shutter speed, ISO and exposure compensation each have a dedicated physical dial, making settings easy to see and adjust.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "nikon-zf-body"
+          ]
+        },
+        {
+          "text": "约2450万有效像素、Nikon Z卡口，可按用途选择不同镜头。",
+          "textEn": "About 24.5 effective megapixels with the Nikon Z mount, so lenses can be chosen per use case.",
+          "kind": "manufacturer",
+          "sourceIDs": [
+            "nikon-zf-spec"
+          ]
+        },
+        {
+          "text": "机身有五轴防抖，低角度和自拍取景可使用翻转触摸屏。",
+          "textEn": "The body has five-axis stabilization, and the vari-angle touchscreen helps with low-angle and selfie framing.",
+          "kind": "manufacturer",
+          "sourceIDs": [
+            "nikon-zf-spec"
+          ]
+        }
+      ],
+      "suitableFor": [
+        {
+          "text": "喜欢实体拨盘的日常摄影和旅行拍摄；镜头应按人像、风景等用途另选。",
+          "textEn": "Everyday and travel photography for fans of physical dials; choose lenses separately for portraits, landscapes and other uses.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "nikon-zf-body",
+            "nikon-zf-spec"
+          ]
+        },
+        {
+          "text": "已有兼容Z卡口镜头，想在同一卡口内选择不同操作风格的机身。",
+          "textEn": "You already own compatible Z-mount lenses and want a body with a different control style on the same mount.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "nikon-zf-spec"
+          ]
+        }
+      ],
+      "limitations": [
+        {
+          "text": "4K/60p固定使用DX裁切；同一镜头下取景会比全画幅模式窄。",
+          "textEn": "4K/60p always uses a DX crop; the same lens frames a narrower view than in full-frame mode.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "nikon-zf-video"
+          ]
+        },
+        {
+          "text": "双卡槽为SD与microSD组合，第二槽不是另一张全尺寸SD卡。",
+          "textEn": "The dual slots are SD plus microSD; the second slot is not another full-size SD card.",
+          "kind": "manufacturer",
+          "sourceIDs": [
+            "nikon-zf-spec"
+          ]
+        },
+        {
+          "text": "这里的710g不含镜头；需要把镜头体积和重量一起纳入携带判断。",
+          "textEn": "The 710g here excludes the lens; include lens size and weight when judging what you carry.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "nikon-zf-spec"
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "fieldID": "sensor_format",
+          "value": "全画幅 CMOS",
+          "valueEn": "Full-frame CMOS",
+          "sourceIDs": [
+            "nikon-zf-spec"
+          ],
+          "condition": "35.9×23.9mm；官方称FX。",
+          "conditionEn": "35.9×23.9mm; designated FX by the manufacturer."
+        },
+        {
+          "fieldID": "effective_pixels",
+          "value": "24.5",
+          "sourceIDs": [
+            "nikon-zf-spec"
+          ]
+        },
+        {
+          "fieldID": "mount",
+          "value": "Nikon Z",
+          "sourceIDs": [
+            "nikon-zf-spec"
+          ],
+          "condition": "F卡口镜头需转接，功能兼容须另核。",
+          "conditionEn": "F-mount lenses require an adapter; functional compatibility must be checked separately."
+        },
+        {
+          "fieldID": "body_weight",
+          "value": "710",
+          "sourceIDs": [
+            "nikon-zf-spec"
+          ],
+          "condition": "官方约值；含电池及存储卡，不含镜头、机身盖及热靴盖。",
+          "conditionEn": "Official approximate value; includes battery and memory card, excludes lens, body cap and hot-shoe cover."
+        },
+        {
+          "fieldID": "video_4k60",
+          "value": "DX裁切（约1.5倍）",
+          "valueEn": "DX crop (approx. 1.5×)",
+          "sourceIDs": [
+            "nikon-zf-video"
+          ],
+          "condition": "3840×2160、60p（实际约59.94fps）；FX镜头，电子防抖关闭。",
+          "conditionEn": "3840×2160, 60p (approx. 59.94fps in practice); FX lens, electronic VR off."
+        },
+        {
+          "fieldID": "card_slots",
+          "value": "SD UHS-II + microSD UHS-I",
+          "sourceIDs": [
+            "nikon-zf-spec"
+          ],
+          "condition": "两槽可用于照片备份；写入能力受卡型和设置影响。",
+          "conditionEn": "Both slots can be used for photo backup; write capability depends on card type and settings."
+        },
+        {
+          "fieldID": "viewfinder_dots",
+          "value": "369",
+          "valueEn": "3.69",
+          "sourceIDs": [
+            "nikon-zf-spec"
+          ],
+          "condition": "官方约值；OLED电子取景器。",
+          "conditionEn": "Official approximate value; OLED electronic viewfinder."
+        },
+        {
+          "fieldID": "controls",
+          "value": "独立快门 / ISO / 曝光补偿拨盘",
+          "valueEn": "Dedicated shutter-speed / ISO / exposure-compensation dials",
+          "sourceIDs": [
+            "nikon-zf-body"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "63D19053-5B77-52FB-9E13-9E37C3BE1748",
+      "brand": "Nikon",
+      "model": "Z6III",
+      "category": "cameras",
+      "series": "Z6 系列全画幅",
+      "seriesEn": "Z6 series full-frame",
+      "generation": "第三代（2024）",
+      "generationEn": "3rd generation (2024)",
+      "configuration": "机身（不含镜头）；存储卡与镜头需要另选",
+      "configurationEn": "Body only (no lens); memory cards and lenses are chosen separately",
+      "aliases": [
+        "尼康 Z6III",
+        "Z6 3",
+        "尼康 Z63"
+      ],
+      "positioning": {
+        "text": "同时面向照片和视频的全画幅机身，在这组三款中，可重点比较全画幅4K/60p和取景器规格。",
+        "textEn": "A full-frame body aimed at both photos and video; in this group of three, focus the comparison on full-frame 4K/60p and viewfinder specs.",
+        "kind": "editorial",
+        "sourceIDs": [
+          "nikon-z6iii-spec",
+          "nikon-z6iii-video",
+          "nikon-zf-video",
+          "nikon-z5ii-video"
+        ]
+      },
+      "highlights": [
+        {
+          "text": "部分堆栈式传感器；厂商提供6K/60p机内RAW视频记录能力。",
+          "textEn": "Partially stacked sensor; the manufacturer offers 6K/60p in-camera RAW video recording.",
+          "kind": "manufacturer",
+          "sourceIDs": [
+            "nikon-z6iii-launch"
+          ]
+        },
+        {
+          "text": "4K/60p可以使用FX画幅，同镜头下可保留比DX裁切更宽的视角。",
+          "textEn": "4K/60p can use the FX format, keeping a wider angle of view than a DX crop with the same lens.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "nikon-z6iii-video",
+            "nikon-z6iii-spec"
+          ]
+        },
+        {
+          "text": "约576万点电子取景器，比本组Zf与Z5II的369万点提供更多显示点数。",
+          "textEn": "Approx. 5.76-million-dot EVF, offering more display dots than the 3.69 million of the Zf and Z5II in this group.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "nikon-z6iii-spec",
+            "nikon-zf-spec",
+            "nikon-z5ii-spec"
+          ]
+        }
+      ],
+      "suitableFor": [
+        {
+          "text": "同时拍照片和4K视频，尤其需要4K/60p保留较宽视角。",
+          "textEn": "Shooting both photos and 4K video, especially when 4K/60p should keep a wider angle of view.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "nikon-z6iii-video",
+            "nikon-z6iii-spec"
+          ]
+        },
+        {
+          "text": "愿意为RAW视频准备兼容存储卡和后期处理流程。",
+          "textEn": "You are willing to prepare compatible memory cards and a post-production workflow for RAW video.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "nikon-z6iii-launch",
+            "nikon-z6iii-spec"
+          ]
+        }
+      ],
+      "limitations": [
+        {
+          "text": "含电池和卡约760g，尚未计入镜头，是本组三款中机身约重最高的一款。",
+          "textEn": "About 760g with battery and card, before adding a lens — the heaviest body of the three in this group.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "nikon-z6iii-spec",
+            "nikon-zf-spec",
+            "nikon-z5ii-spec"
+          ]
+        },
+        {
+          "text": "一槽为CFexpress Type B / XQD，另一槽为SD；不能用两张SD实现双卡配置。",
+          "textEn": "One slot is CFexpress Type B / XQD and the other SD; two SD cards cannot be used for a dual-card setup.",
+          "kind": "manufacturer",
+          "sourceIDs": [
+            "nikon-z6iii-spec"
+          ]
+        },
+        {
+          "text": "4K/120p固定为DX裁切；4K/60p的画幅结论不能直接套到更高帧率。",
+          "textEn": "4K/120p is always a DX crop; the 4K/60p format conclusion does not carry over to higher frame rates.",
+          "kind": "manufacturer",
+          "sourceIDs": [
+            "nikon-z6iii-video"
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "fieldID": "sensor_format",
+          "value": "全画幅 CMOS（部分堆栈式）",
+          "valueEn": "Full-frame CMOS (partially stacked)",
+          "sourceIDs": [
+            "nikon-z6iii-spec",
+            "nikon-z6iii-launch"
+          ],
+          "condition": "35.9×23.9mm；官方称FX。",
+          "conditionEn": "35.9×23.9mm; designated FX by the manufacturer."
+        },
+        {
+          "fieldID": "effective_pixels",
+          "value": "24.5",
+          "sourceIDs": [
+            "nikon-z6iii-spec"
+          ]
+        },
+        {
+          "fieldID": "mount",
+          "value": "Nikon Z",
+          "sourceIDs": [
+            "nikon-z6iii-spec"
+          ],
+          "condition": "F卡口镜头需转接，功能兼容须另核。",
+          "conditionEn": "F-mount lenses require an adapter; functional compatibility must be checked separately."
+        },
+        {
+          "fieldID": "body_weight",
+          "value": "760",
+          "sourceIDs": [
+            "nikon-z6iii-spec"
+          ],
+          "condition": "官方约值；含电池及存储卡，不含镜头、机身盖及热靴盖。",
+          "conditionEn": "Official approximate value; includes battery and memory card, excludes lens, body cap and hot-shoe cover."
+        },
+        {
+          "fieldID": "video_4k60",
+          "value": "可选FX全画幅",
+          "valueEn": "FX full-frame available",
+          "sourceIDs": [
+            "nikon-z6iii-video",
+            "nikon-z6iii-spec"
+          ],
+          "condition": "3840×2160、60p（实际约59.94fps）；FX镜头，电子防抖关闭。",
+          "conditionEn": "3840×2160, 60p (approx. 59.94fps in practice); FX lens, electronic VR off."
+        },
+        {
+          "fieldID": "card_slots",
+          "value": "CFexpress Type B / XQD + SD UHS-II",
+          "sourceIDs": [
+            "nikon-z6iii-spec"
+          ],
+          "condition": "两槽可用于照片备份；特定视频格式需要符合官方要求的卡。",
+          "conditionEn": "Both slots can be used for photo backup; certain video formats require cards that meet official requirements."
+        },
+        {
+          "fieldID": "viewfinder_dots",
+          "value": "576",
+          "valueEn": "5.76",
+          "sourceIDs": [
+            "nikon-z6iii-spec"
+          ],
+          "condition": "官方约值；OLED电子取景器。",
+          "conditionEn": "Official approximate value; OLED electronic viewfinder."
+        },
+        {
+          "fieldID": "controls",
+          "value": "模式拨盘 + 按钮 / 指令拨盘",
+          "valueEn": "Mode dial + buttons / command dials",
+          "sourceIDs": [
+            "nikon-z6iii-body"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4A3E3829-C196-52BA-829A-72A8478E2D09",
+      "brand": "Nikon",
+      "model": "Z5II",
+      "category": "cameras",
+      "series": "Z5 系列全画幅",
+      "seriesEn": "Z5 series full-frame",
+      "generation": "第二代（2025）",
+      "generationEn": "2nd generation (2025)",
+      "configuration": "机身（不含镜头）；不包括第一代Z5",
+      "configurationEn": "Body only (no lens); does not include the first-generation Z5",
+      "aliases": [
+        "尼康 Z5II",
+        "Z5 2",
+        "尼康 Z52"
+      ],
+      "positioning": {
+        "text": "采用模式拨盘与双SD卡槽的全画幅机身，适合从日常拍照开始，同时保留视频能力。",
+        "textEn": "A full-frame body with a mode dial and dual SD slots, suited to starting from everyday photography while keeping video capability.",
+        "kind": "editorial",
+        "sourceIDs": [
+          "nikon-z5ii-spec",
+          "nikon-z5ii-body"
+        ]
+      },
+      "highlights": [
+        {
+          "text": "两槽均支持SD UHS-II，已有SD卡的用户可继续核对卡速后使用。",
+          "textEn": "Both slots support SD UHS-II, so existing SD cards can be reused after checking their speed ratings.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "nikon-z5ii-spec"
+          ]
+        },
+        {
+          "text": "约2450万有效像素，与本组另外两款相同；差别更应看视频、卡槽与操作。",
+          "textEn": "About 24.5 effective megapixels, the same as the other two in this group; the differences that matter are video, card slots and controls.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "nikon-z5ii-spec",
+            "nikon-zf-spec",
+            "nikon-z6iii-spec"
+          ]
+        },
+        {
+          "text": "支持机内N-RAW视频和产品展示模式，相关视频条件需按用途查看。",
+          "textEn": "Supports in-camera N-RAW video and a product-review mode; check the related video conditions per use case.",
+          "kind": "manufacturer",
+          "sourceIDs": [
+            "nikon-z5ii-launch"
+          ]
+        }
+      ],
+      "suitableFor": [
+        {
+          "text": "旅行、家人和日常照片，偏好模式拨盘与按钮操作而非独立曝光刻度拨盘。",
+          "textEn": "Travel, family and everyday photos, if you prefer a mode dial and buttons over dedicated marked exposure dials.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "nikon-z5ii-body",
+            "nikon-z5ii-spec"
+          ]
+        },
+        {
+          "text": "想使用两张全尺寸SD卡做照片备份，并沿用Nikon Z卡口镜头。",
+          "textEn": "You want photo backup onto two full-size SD cards while continuing to use Nikon Z-mount lenses.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "nikon-z5ii-spec"
+          ]
+        }
+      ],
+      "limitations": [
+        {
+          "text": "4K/60p固定为DX裁切；若要更宽视角，可考虑4K/30p或比较Z6III的4K/60p。",
+          "textEn": "4K/60p is always a DX crop; for a wider view, consider 4K/30p or compare the Z6III's 4K/60p.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "nikon-z5ii-video",
+            "nikon-z5ii-launch",
+            "nikon-z6iii-video"
+          ]
+        },
+        {
+          "text": "取景器为约369万点，与Zf相同；不能把新上市年份直接理解为更高显示规格。",
+          "textEn": "The viewfinder is approx. 3.69 million dots, same as the Zf; the newer release year should not be read as a higher display spec.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "nikon-z5ii-spec",
+            "nikon-zf-spec"
+          ]
+        },
+        {
+          "text": "机身约700g不含镜头，仍需要镜头与存储卡才能组成可拍摄套装。",
+          "textEn": "The body is about 700g without a lens; a lens and memory card are still needed for a shootable kit.",
+          "kind": "editorial",
+          "sourceIDs": [
+            "nikon-z5ii-spec"
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "fieldID": "sensor_format",
+          "value": "全画幅 CMOS",
+          "valueEn": "Full-frame CMOS",
+          "sourceIDs": [
+            "nikon-z5ii-spec"
+          ],
+          "condition": "35.9×23.9mm；官方称FX。",
+          "conditionEn": "35.9×23.9mm; designated FX by the manufacturer."
+        },
+        {
+          "fieldID": "effective_pixels",
+          "value": "24.5",
+          "sourceIDs": [
+            "nikon-z5ii-spec"
+          ]
+        },
+        {
+          "fieldID": "mount",
+          "value": "Nikon Z",
+          "sourceIDs": [
+            "nikon-z5ii-spec"
+          ],
+          "condition": "F卡口镜头需转接，功能兼容须另核。",
+          "conditionEn": "F-mount lenses require an adapter; functional compatibility must be checked separately."
+        },
+        {
+          "fieldID": "body_weight",
+          "value": "700",
+          "sourceIDs": [
+            "nikon-z5ii-spec"
+          ],
+          "condition": "官方约值；含电池及存储卡，不含镜头、机身盖及热靴盖。",
+          "conditionEn": "Official approximate value; includes battery and memory card, excludes lens, body cap and hot-shoe cover."
+        },
+        {
+          "fieldID": "video_4k60",
+          "value": "DX裁切（约1.5倍）",
+          "valueEn": "DX crop (approx. 1.5×)",
+          "sourceIDs": [
+            "nikon-z5ii-video"
+          ],
+          "condition": "3840×2160、60p（实际约59.94fps）；FX镜头，电子防抖关闭。",
+          "conditionEn": "3840×2160, 60p (approx. 59.94fps in practice); FX lens, electronic VR off."
+        },
+        {
+          "fieldID": "card_slots",
+          "value": "SD UHS-II + SD UHS-II",
+          "sourceIDs": [
+            "nikon-z5ii-spec"
+          ],
+          "condition": "两槽可用于照片备份；写入能力受卡速和设置影响。",
+          "conditionEn": "Both slots can be used for photo backup; write capability depends on card speed and settings."
+        },
+        {
+          "fieldID": "viewfinder_dots",
+          "value": "369",
+          "valueEn": "3.69",
+          "sourceIDs": [
+            "nikon-z5ii-spec"
+          ],
+          "condition": "官方约值；OLED电子取景器。",
+          "conditionEn": "Official approximate value; OLED electronic viewfinder."
+        },
+        {
+          "fieldID": "controls",
+          "value": "模式拨盘 + 按钮 / 指令拨盘",
+          "valueEn": "Mode dial + buttons / command dials",
+          "sourceIDs": [
+            "nikon-z5ii-body"
+          ]
+        }
+      ]
+    }
+  ]
+}
